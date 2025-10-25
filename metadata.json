@@ -1,5 +1,7 @@
 
 {
-  "name": "Customer Feedback Sentiment Analyzer",
-  "description": "An AI-powered application to analyze the sentiment of customer feedback. Submit text to receive a sentiment classification (Positive, Negative, or Neutral), a confidence score, and a summary. The app also visualizes the overall sentiment distribution and trends from all submitted feedback."
+  "name": "Sentiment Analysis",
+  "description": "A React + TypeScript project built by Anjaneyulu Sadam for customer feedback sentiment analysis",
+  "author": "Anjaneyulu Sadam",
+  "version": "1.0.0"
 }
