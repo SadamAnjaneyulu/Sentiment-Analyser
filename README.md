@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 Customer Feedback Sentiment Analyzer
 
-# Run and deploy your AI Studio app
+An interactive web application built using **React**, **TypeScript**, and **Vite** that performs **real-time sentiment analysis** on customer feedback using the **Gemini AI API**.  
+The app classifies feedback as **Positive**, **Negative**, or **Neutral**, provides a **confidence score**, and generates a short **summary** of the feedback content.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## 🚀 Features
 
-## Run Locally
+- 📝 Enter any customer feedback text
+- ⚡ Analyzes sentiment instantly
+- 🎯 Displays overall sentiment and confidence percentage
+- 💬 Generates a short summary of the feedback meaning
+- 📊 Visualizes results with clean UI and chart representation
+- 🧩 Built with modern front-end stack (React + TypeScript + Vite)
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+| Category | Technologies |
+|-----------|---------------|
+| Frontend | React, TypeScript, Vite |
+| Styling | CSS / TailwindCSS |
+| AI Integration | Gemini API (via `@google/genai`) |
+| Charts | Recharts (for sentiment visualization) |
+| Version Control | Git & GitHub |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/SadamAnjaneyulu/Sentiment-Analyser.git
+cd Sentiment
